@@ -12,6 +12,9 @@
     window.$docsify = {
       name: 'Suporte Folha',
       loadSidebar: true, // Ativa o menu lateral
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md' // Linha essencial para encontrar o menu na raiz
+      },
       subMaxLevel: 2
     }
   </script>
